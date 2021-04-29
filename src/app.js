@@ -16,7 +16,7 @@ class Server {
             routes(req, res, filePath, this.conf);
         });
         
-        app.listen(conf.port, conf.host, () => {
+        app.listen(this.conf.port, conf.host, () => {
             const addr = `http://${this.conf.host}:${this.conf.port}`;
             console.log(`Server started at ${chalk.green(addr)}`);
             openUrl(addr);

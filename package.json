@@ -1,0 +1,21 @@
+{
+  "name": "anydoor",
+  "version": "0.1.1",
+  "description": "Tiny nodejs web server",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "./bin/anydoor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "anydoor": "node bin/anydoor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "handlebars": "^4.7.7",
+    "yargs": "^16.2.0"
+  }
+}

@@ -1,14 +1,14 @@
 {
   "name": "anyhere",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tiny nodejs web server",
   "main": "src/app.js",
   "bin": {
-    "anydoor": "./bin/anyhere.js"
+    "anyhere": "./bin/anyhere.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "anydoor": "node bin/anyhere"
+    "anyhere": "node bin/anyhere"
   },
   "keywords": [],
   "author": "",
